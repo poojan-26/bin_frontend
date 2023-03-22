@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Added css */
+/* .makeStyles-root-1{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MuiTypography-root.MuiTypography-h6{
+  width: inherit;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+#custom-mt-100{
+  margin-top: 150px !important;
+}
+.form-border-custom{
+  position: relative;
+  margin: 0 !important;
+  box-sizing: border-box;
+  padding: 30px 70px;
+  border: 2px solid #000000;
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-field, #input-select{
+  border: 2px solid #222222;
+  margin: 5px 0 !important;
+}
+.d-flex-space-between{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.input-field.w-50{
+  margin-bottom: 12px;
+  width: 48.5%;
+}
+.form-border-custom .MuiFormControl-root{
+  width: 48.5%;
+}
+.input-field.w-100, .input-check.w-100{
+  width: 100%;
+}
+.d-flex-space-between .MuiFormControl {
+  width: 50% !important;
+}
+.submit-btn{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  margin-top: 20px !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+} */
+
+/* Right form */
+/* .right-form-custom{
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  position: absolute;
+  top: -2px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+@media screen and (min-width:1051px) {
+  .right-form-custom{
+    right: 0;
+    transform: translateX(103.5%);
+  }
+}
+@media screen and (max-width:1150px) {
+  .input-field.w-50{
+    width: 100%;
+  }
+  .d-flex-space-between .MuiFormControl-root{
+    width: 100% !important;
+  }
+  .form-border-custom{
+    padding: 20px 30px;
+  }
+  .right-form-custom{
+    width: 250px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width:1050px) {
+  .makeStyles-root-1{
+    width: 90%;
+  }
+  #custom-mt-100{
+    margin-top: 50px !important;
+  }
+  .right-form-custom{
+    width: 100%;
+    right: initial;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    transform: translateY(103%);
+  }
+}
+@media screen and (max-width: 768px){
+  .MuiTypography-root.MuiTypography-h6{
+    font-size: 28px;
+  }
+}
+
+.right-form-title{
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  font-size: 18px;
+}
+#input-select#w-100{
+  width: 100%;
+}
+.promocode{
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.total-amount-custom{
+  margin: 0 !important;
+  font-size: 19px;
+}
+.desc-custom{
+  font-size: 14px;
+  line-height: 1.2;
+} */
+
+/* first form css */
+/* .MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+} */
+
+.MuiPopover-root .MuiMenu-paper {
+  max-height: 200px !important ;
+  overflow: auto !important;
+}
+
+.MuiInputBase-input {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+  font-family: "Source Sans Pro" !important;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.makeStyles-termsLabel-6 .MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+.makeStyles-labelHeading-11 a {
+  color: #000;
+}
+body .MuiGrid-spacing-xs-3,
+body .MuiGrid-spacing-xs-2 {
+  width: auto;
+}
+body .makeStyles-container-2 {
+  margin: 30px auto;
+  padding: 0 20px;
+}
+body .makeStyles-contactContainer-16 {
+  padding: 16px 8px;
+}
+.mb25 {
+  margin-bottom: 25px !important;
+}
+body .friendly_reminder {
+  padding: 15px 10px !important;
+  color: black;
+}
+
+.custom-franchisee {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-franchisee #custom-container {
+  width: 80%;
+}
+
+/*--------------------------------------- Responsive --------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .custom-franchisee #custom-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #custom-container {
+    flex-direction: column-reverse;
+  }
+}

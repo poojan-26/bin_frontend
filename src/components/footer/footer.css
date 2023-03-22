@@ -1,0 +1,13 @@
+footer.footer {
+    background-color: #454545;
+    padding: 28px 20px;
+}
+footer.footer p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ADADAD;
+    text-align: center;
+}
